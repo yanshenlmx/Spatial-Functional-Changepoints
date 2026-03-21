@@ -1,9 +1,7 @@
 # Spatial-Functional-Changepoints
 Github repository for the paper entitled Evaluating Fingerprint of Mt. Pinatubo Eruption on Stratospheric Temperatures with Spatial Functional Changepoints. 
 
-The detailed simulation results are all uploaded in "detection_simulation". (In my code newplot_12.R, I directly call "/Users/mengchen/Box/detection_simulation/d_", phi, "_", rho, "_", nnull, "_", nfile to read from Box.)
-
-For all remaining files, I keep the folder and file name as in my local device, so the read and write path could direct you to the plot or data generated.
+The detailed simulation results are all uploaded in "detection_simulation". (In the code newplot_12.R, directly call "/Users/mengchen/Box/detection_simulation/d_", phi, "_", rho, "_", nnull, "_", nfile to read from Box.)
 
 All simulation related files are uploaded to "Extension".
 In Extension/detection_simulation:
@@ -13,14 +11,12 @@ In Extension/detection_simulation:
 - To generate the simulation results, use code in "kick_off_simulations".
 - Other files have an additional Readme file in detection_simulation/fdr_auc_results. The reference code files are in detection_simulation/FDR_AUC_code.
 
-The original real data files were shared by Lyndsay, not sure if I could forward it. If you need reference, could ask her to get the original data files.
-
-
 The data after full preprocessing is in IGRA_global/IGRA_global_aggregate11_cstd.
 
 Code and results for global aggregated study are in IGRA_global/agg11_2_4.
 - plots_code.R contains the code to plot changepoint map, functional data before and after the changepoint.
 - figure2.R is the most recent code for the grid map.
+- plot_new.R contains the plots in the manuscript. 
 
 
 MW to do: 
