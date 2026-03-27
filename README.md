@@ -19,7 +19,3 @@ Code and results for global aggregated study are in IGRA_global/agg11_2_4.
 - plot_new.R contains the plots in the manuscript. 
 
 
-MW to do: 
-- find the preprocessing code for the real data.
-
-
