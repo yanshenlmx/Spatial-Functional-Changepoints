@@ -18,6 +18,9 @@ The data after full preprocessing is in IGRA_global/IGRA_global_aggregate11_cstd
 Code and results for global aggregated study are in IGRA_global/agg11_2_4.
 - plots_code.R contains the code to plot changepoint map, functional data before and after the changepoint.
 - figure2.R is the most recent code for the grid map.
-- plot_new.R under the modification contains the plots in the manuscript. 
+
+modification contains the necessary figures used in the manuscript and plot_new.R contains the scripts to create these plots in the manuscript. 
+
+geosphere contains the figures of weekly temperature profile after removing the seasonality, centering, and scaling for all locations. The light blue and red curves represent the functional data before and after the changepoint.
 
 
